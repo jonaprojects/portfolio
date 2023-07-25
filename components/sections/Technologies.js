@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Section from "../UI/Section";
 
 const Technologies = (props) => {
   return (
-    <section className="flex flex-col justify-center align-center">
+    <section className="flex flex-col justify-center align-center md:mt-11">
       <h2 className="text-4xl font-bold mt-6 mb-2 text-center md:text-6xl ">
         Technologies
       </h2>

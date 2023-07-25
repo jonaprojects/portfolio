@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = (props) => {
   return (
     <nav
-      className={`py-5 px-3 mb-11 bg-slate-900 flex flex-row justify-between`}
+      className={`py-4  px-3 mb-11 bg-slate-900 flex flex-row justify-between`}
     >
       <div className="text-lg">
         <Link href="/" className="font-bold">

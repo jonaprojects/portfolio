@@ -4,6 +4,7 @@ import PrimaryButton from "../UI/PrimaryButton";
 import SecondaryButton from "../UI/SecondaryButton";
 import Image from "next/image";
 import ContactButtons from "../specificUI/ContactButtons";
+import Cube from "../3D/Cube";
 
 const TypedAnimation = () => {
   return (
@@ -31,19 +32,26 @@ const TypedAnimation = () => {
 const Hero = (props) => {
   return (
     <section>
-      <h1 className="font-bold text-5xl md:text-7xl mb-2 ">
-        Hello 👋 <br />
-        I'm Jonathan and I'm a
-        <span className="text-indigo-600">
-          {" "}
-          <TypedAnimation />{" "}
-        </span>
-      </h1>
-      <p className="text-slate-500 text-lg md:text-xl mb-5">
-        I am not like everyone else. I will make sure to take your expectations
-        and exceed them by a mile.
-      </p>
-      <ContactButtons />
+      <div className="md:flex md:flex-row md:justify-between">
+        <div name="content" className="md:max-w-2xl">
+          <h1 className="font-bold text-5xl md:text-7xl mb-2 ">
+            Hello 👋 <br />
+            I'm Jonathan and I'm a
+            <span className="text-indigo-600">
+              {" "}
+              <TypedAnimation />{" "}
+            </span>
+          </h1>
+          <p className="text-slate-500 text-lg md:text-xl mb-5">
+            I am not like everyone else. I will make sure to take your
+            expectations and exceed them by a mile.
+          </p>
+          <ContactButtons />
+        </div>
+        <div className="md:basis-1/3">
+          <Cube />
+        </div>
+      </div>
     </section>
   );
 };
