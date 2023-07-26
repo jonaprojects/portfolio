@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Section from "../UI/Section";
+import Logo from "../UI/Logo/Logo";
 
 const Technologies = (props) => {
   return (
@@ -12,90 +13,79 @@ const Technologies = (props) => {
         My lethal arsenal of development tools
       </p>
       <div className="grid grid-cols-4 gap-x-2 md:grid-cols-6 gap-4 items-center justify-items-center">
-        <Image
+        <Logo
           src="/htmlLogo.svg"
           alt="HTML Logo"
           width={60}
           height={60}
-          priority
+
         />
-        <Image
+        <Logo
           src="/cssLogo.svg"
           alt="CSS Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/jsLogo.svg"
           alt="JS Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/reactLogo.svg"
           alt="React Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/pythonLogo.svg"
           alt="Python Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/expoLogoDark.svg"
           alt="Expo Logo"
           width={60}
           height={60}
-          priority
         />
 
-        <Image
+        <Logo
           src="/figmaLogo.svg"
           alt="Figma Logo"
           width={50}
           height={50}
-          priority
         />
-        <Image
+        <Logo
           src="/tailwindLogo.svg"
           alt="TailwindCSS Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/gitLogo.svg"
           alt="Git Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/githubLogoDark.svg"
           alt="Github Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/bootstrapLogo.svg"
           alt="Bootstrap Logo"
           width={60}
           height={60}
-          priority
         />
-        <Image
+        <Logo
           src="/csharpLogo.svg"
           alt="Csharp Logo"
           width={60}
           height={60}
-          priority
         />
       </div>
     </section>

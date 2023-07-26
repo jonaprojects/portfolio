@@ -37,7 +37,7 @@ export default function Home() {
             markers: false,
             toggleActions: "resume resume resume resume",
           },
-          duration: 2,
+          duration: 3,
           ease: "power2",
           opacity: 0,
           y: -50,

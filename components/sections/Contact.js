@@ -3,13 +3,18 @@ import Image from "next/image";
 import Modal, { ModalLink } from "../UI/Modal.js";
 
 const onGithubHandler = () => {
-  window.location.href = "https://www.github.com/jonaprojects";
+  openURL("https://www.github.com/jonaprojects");
 };
 
 const onLinkedinHandler = () => {
-  window.location.href =
-    "https://www.linkedin.com/in/jonathan-shavit-615bb0215/";
+  openURL("https://www.linkedin.com/in/jonathan-shavit-615bb0215/");
 };
+
+const openURL = (url) => {
+  window.location.href = url;
+};
+
+
 
 const Contact = (props) => {
   const [contactModalOpen, setContactModalOpen] = useState(false);
@@ -53,8 +58,8 @@ const Contact = (props) => {
               <Image
                 src="/gmail.svg"
                 alt="Gmail Logo"
-                width={50}
-                height={50}
+                width={60}
+                height={60}
                 priority
               />
             </div>
@@ -79,11 +84,9 @@ const Contact = (props) => {
         <h1 className="text-3xl md:text-5xl font-bold">Reach me via E-mail</h1>
         <p className="md:text-xl text-slate-400 mt-4">
           You can reach me via Gmail in the address
-          <ModalLink href="gmail.com">
-          merkava234@gmail.com
-          </ModalLink>
-          . However, If you need a quick response you should write to me in
-          Linkedin, as I visit there more often
+          <ModalLink href="gmail.com">merkava234@gmail.com</ModalLink>. However,
+          If you need a quick response you should write to me in Linkedin, as I
+          visit there more often
         </p>
       </Modal>
     </>

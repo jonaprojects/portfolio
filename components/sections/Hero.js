@@ -5,6 +5,7 @@ import SecondaryButton from "../UI/SecondaryButton";
 import Image from "next/image";
 import ContactButtons from "../specificUI/ContactButtons";
 import Cube from "../3D/Cube";
+import Dodecahedron from "../3D/Dodecahedron";
 
 const TypedAnimation = () => {
   return (
@@ -48,8 +49,8 @@ const Hero = (props) => {
           </p>
           <ContactButtons />
         </div>
-        <div className="md:basis-1/3">
-          <Cube />
+        <div className="lg:basis-1/3 md:flex-none md:max-lg:ml-5 xs:max-md:justify-center">
+          <Dodecahedron/>
         </div>
       </div>
     </section>
