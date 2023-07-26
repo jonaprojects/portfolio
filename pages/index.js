@@ -52,7 +52,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center px-3">
+      <div className="flex justify-center px-3 oveflow-hidden">
         <div className={`${inter.className} w-11/12`}>
           <Hero />
           <Technologies />
