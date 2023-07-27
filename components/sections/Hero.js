@@ -6,7 +6,7 @@ import Image from "next/image";
 import ContactButtons from "../specificUI/ContactButtons";
 import Cube from "../3D/Cube";
 import Dodecahedron from "../3D/Dodecahedron";
-
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 const TypedAnimation = () => {
   return (
     <TypeAnimation
@@ -35,14 +35,16 @@ const Hero = (props) => {
     <section>
       <div className="md:flex md:flex-row md:justify-between">
         <div name="content" className="md:max-w-2xl">
-          <h1 className="font-bold text-5xl md:text-7xl mb-2 ">
-            Hello 👋 <br />
-            I'm Jonathan and I'm a
-            <span className="text-indigo-600">
-              {" "}
-              <TypedAnimation />{" "}
-            </span>
-          </h1>
+          <div>
+            <h1 className="font-bold text-5xl md:text-7xl mb-2 ">
+              Hello 👋 <br />
+              I'm Jonathan and I'm a <br className="md:invisible" />
+              <span className="text-indigo-600" style={{}}>
+                {" "}
+                <TypedAnimation />{" "}
+              </span>
+            </h1>
+          </div>
           <p className="text-slate-500 text-lg md:text-xl mb-5">
             I am not like everyone else. I will make sure to take your
             expectations and exceed them by a mile.
@@ -50,7 +52,7 @@ const Hero = (props) => {
           <ContactButtons />
         </div>
         <div className="lg:basis-1/3 md:flex-none md:max-lg:ml-5 xs:max-md:justify-center">
-          <Dodecahedron/>
+          <Dodecahedron />
         </div>
       </div>
     </section>
