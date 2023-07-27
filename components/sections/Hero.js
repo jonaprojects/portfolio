@@ -6,7 +6,6 @@ import Image from "next/image";
 import ContactButtons from "../specificUI/ContactButtons";
 import Cube from "../3D/Cube";
 import Dodecahedron from "../3D/Dodecahedron";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 const TypedAnimation = () => {
   return (
     <TypeAnimation
