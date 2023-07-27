@@ -37,7 +37,8 @@ const Hero = (props) => {
           <div>
             <h1 className="font-bold text-5xl md:text-7xl mb-2 ">
               Hello 👋 <br />
-              I'm Jonathan and I'm a <br className="md:invisible" />
+              I'm Jonathan and I'm a 
+              <br className="md:hidden" />
               <span className="text-indigo-600" style={{}}>
                 {" "}
                 <TypedAnimation />{" "}
