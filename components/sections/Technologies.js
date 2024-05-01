@@ -9,7 +9,7 @@ const Technologies = (props) => {
       <h2 className="text-4xl font-bold mt-6 mb-2 text-center md:text-6xl ">
         Technologies
       </h2>
-      <p className="text-slate-500 mb-4 text-lg md:text-xl text-center ">
+      <p className="text-slate-400 mb-4 text-lg md:text-xl text-center ">
         My lethal arsenal of development tools
       </p>
       <div className="grid grid-cols-4 gap-x-2 md:grid-cols-6 gap-4 items-center justify-items-center">

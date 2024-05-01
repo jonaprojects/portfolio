@@ -10,7 +10,7 @@ const About = (props, ref) => {
     >
       <div name="content" id="aboutContent" className="max-w-3xl flex-auto">
         <h2 className="text-4xl md:text-6xl font-bold mb-3">About Me</h2>
-        <p id="aboutParagraph" className="text-slate-500 text-xl mb-6">
+        <p id="aboutParagraph" className="text-slate-400 text-xl mb-6">
           My name is Jonathan Shavit, and I am a CS Student who loves developing
           websites, mobile apps and python applications . I am totally
           infatuated with the world of Computer Science. I love seeing

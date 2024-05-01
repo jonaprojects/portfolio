@@ -45,7 +45,7 @@ const Hero = (props) => {
               </span>
             </h1>
           </div>
-          <p className="text-slate-500 text-lg md:text-xl mb-5">
+          <p className="text-slate-400 text-lg md:text-xl mb-5">
             I am not like everyone else. I will make sure to take your
             expectations and exceed them by a mile.
           </p>
