@@ -17,6 +17,44 @@ const Projects = (props) => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#161616", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="March 2024"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        >
+          <h3 className="vertical-timeline-element-title text-xl font-bold">
+            LyricsLingo
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            A chrome extension
+          </h4>
+          <p className="font-normal" style={{ fontWeight: "normal" }}>
+            A chrome extension for learning new languages with songs. The
+            extension provides the users with the lyrics of their favorite
+            songs, and help them translate and practice key phrases to level up
+            their language mastery.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#161616", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="March 2024"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        >
+          <h3 className="vertical-timeline-element-title text-xl font-bold">
+            Kefel
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">A website</h4>
+          <p className="font-normal" style={{ fontWeight: "normal" }}>
+            An online specifically designed to help kids learn the
+            multiplication table while having fun. The users go through
+            different levels where they compete with different characters over
+            fundamental math questions.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#161616", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="May 2023 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         >
@@ -32,26 +70,7 @@ const Projects = (props) => {
             progress and it is developed in React Native & Expo
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "#161616", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="June 2023 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        >
-          <h3 className="vertical-timeline-element-title text-xl font-bold">
-            easyFinance
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            An open source mobile app
-          </h4>
-          <p className="font-normal" style={{ fontWeight: "normal" }}>
-            A free and open source app dedicated to providing basic financial
-            terms in Hebrew for anyone. The goal of the project is to help people find
-            accessible and concise information that will assist them with making
-            better financial decisions.
-          </p>
-        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#161616", color: "#fff" }}
